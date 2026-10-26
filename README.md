@@ -38,6 +38,12 @@ The usage-limit bars only appear on Pro and Max subscriptions, after the first r
    curl -o ~/.claude/statusline.js https://raw.githubusercontent.com/mike-r129/claude-cli-statusline/main/statusline.js
    ```
 
+   In Windows PowerShell, where `curl` is an alias for `Invoke-WebRequest`:
+
+   ```powershell
+   Invoke-WebRequest https://raw.githubusercontent.com/mike-r129/claude-cli-statusline/main/statusline.js -OutFile ~/.claude/statusline.js
+   ```
+
 2. Add this to `~/.claude/settings.json`:
 
    ```json
